@@ -18,5 +18,5 @@ Review the included License document in this repository.
 ## Tests
 Each time the browser is opened/refreshed, it makes a call to two functions:
 - listTopics(), lists the topics we studied during the prework.
-- selectTopic(), randomly selects a topic from the provided list.
+- selectTopic(), randomly selects a topic from the provided list.\
 In each instance of visiting the site, you may notice that repeated calls to the 'selectTopic()' function will result in a non-random output. That's because a randomTopic variable is used in the function, and it is created outside of the function. The randomTopic variable is only randomized upon each refresh of the website. Test it out yourself!
